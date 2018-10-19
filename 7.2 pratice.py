@@ -7,7 +7,5 @@ while var <= 19:
     ran = random.randint(1, 101)
     if ran > user:
         num = num + [ran]
-if num != []:
-    print(num)
-else:
+if num is None:
     print('No numbers are larger than the entered number')
